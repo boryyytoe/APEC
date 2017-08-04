@@ -58,19 +58,20 @@ var orangeIcon = new L.Icon({
 
 	
 	
+	
 	function addDataToMap(data, map) {
     var dataLayer = L.geoJson(data, {
         onEachFeature: function(feature, layer) {
-            var popupText = "<h3>Project Title: " + feature.properties.title + "</h3>" + "Lead Nominator: " + feature.properties.lead_nominator + "<br>" + "Nominator: " + feature.properties.nominator;			
+            var popupText = "<h3>" + feature.properties.title + "</h3>" + "<div class='repData'>" + feature.properties.rep_data + "</div>";			
 			layer.setIcon(orangeIcon);
             layer.bindPopup(popupText); 
-			layer.on('mouseover', function() { layer.openPopup(); });
-			layer.on('mouseout', function() { layer.closePopup(); });
+			//layer.on('mouseover', function() { layer.openPopup(); });
+			//layer.on('mouseout', function() { layer.closePopup(); });
 			layer.on('click', function (e) {
 				window.open(feature.properties.url, "_self");
 				
 			});
-			
+
 		
 		}
         });

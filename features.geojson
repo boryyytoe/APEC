@@ -18,7 +18,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Papua New Guinea"
+        "title": "Papua New Guinea",
+        "rep_data": ""
       },
       "geometry": {
         "coordinates": [
@@ -62,7 +63,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Peru"
+        "title": "Peru",
+        "rep_data": ""
       },
       "geometry": {
         "coordinates": [
@@ -76,7 +78,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Russian Federation"
+        "title": "Russian Federation",
+        "rep_data": ""
       },
       "geometry": {
         "coordinates": [
@@ -105,7 +108,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Brunei"
+        "title": "Brunei",
+        "rep_data": ""
       },
       "geometry": {
         "coordinates": [
@@ -134,7 +138,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Canada"
+        "title": "Canada",
+        "rep_data": ""
       },
       "geometry": {
         "coordinates": [
@@ -238,7 +243,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Singapore"
+        "title": "Singapore",
+        "rep_data": ""
       },
       "geometry": {
         "coordinates": [
@@ -267,7 +273,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "China"
+        "title": "China",
+        "rep_data": ""
       },
       "geometry": {
         "coordinates": [
@@ -281,7 +288,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Mexico"
+        "title": "Mexico",
+        "rep_data": ""
       },
       "geometry": {
         "coordinates": [
