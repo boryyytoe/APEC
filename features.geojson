@@ -1,4 +1,4 @@
-﻿var rep_data = {
+﻿{
   "features": [
     {
       "type": "Feature",
@@ -257,4 +257,4 @@
     }
   ],
   "type": "FeatureCollection"
-};
+}
