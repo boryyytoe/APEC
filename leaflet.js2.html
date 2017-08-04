@@ -22,8 +22,8 @@
   integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg=="
   crossorigin=""></script>
 <script src="leaflet.ajax.min.js"></script>  
-<!-- <script src="features.js"></script>  -->
 
+<script src="Leaflet.MakiMarkers.js"></script>
   
 <style type="text/css">
 	#map { height: 880px; }
@@ -45,63 +45,24 @@
     	style: 'mapbox://styles/bbuth/cj5sj7p1g3qpq2sliyo38j6d6'
 	}).addTo(map);
 	
-	/*
-	var IconActive = L.icon({
-    iconUrl: 'map-marker-icon.png'});
 	
-	var IconComplete = L.icon({
-    iconUrl: 'map-marker-icon2.png'});
-	
-	var projectStatus = "complete";
-	
-	function popup (feature, layer) {		
-		var dataLayer = L.geoJson (feature,{
-		
-		layer.bindPopup("<h3>Project Title: " + feature.properties.title + "</h3>" + "Lead Nominator: " + feature.properties.lead_nominator + "<br>" + "Nominator: " + feature.properties.nominator);
-		layer.on('mouseover', function() { layer.openPopup(); });
-		layer.on('mouseout', function() { layer.closePopup(); });
-		layer.on('click', function () {
-		window.open(feature.properties.url, "_self");
-				});
-		
-		if (feature.properties.status == projectStatus) {
-				
-				return layer.setIcon(IconComplete);
-				
-			} else {
-				
-				return layer.setIcon(IconActive);		
-			}
-		)};
-	};
-	
-	L.geoJson(dataLayer,{
-		onEachFeature: popup
-	}).addTo(mymap);
+var orangeIcon = new L.Icon({
+  iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
 
-	$.getJSON("https://cdn.rawgit.com/Energetics-Incorporated/CSLF/5774efbb/features.geojson", function(feature) { popup(feature, layer); });
-	*/
+
 	
-	var IconActive = L.icon({
-    iconUrl: 'map-marker-icon.png',
-	iconSize: [30,45],
-	iconAnchor: [15, 45],
-	popupAnchor:  [0, -45]
-	});
-	
-	var IconComplete = L.icon({
-    iconUrl: 'map-marker-icon2.png',
-	iconSize: [30,45],
-	iconAnchor: [15, 45], 
-	popupAnchor:  [0, -45]
-	});
-	
-	var projectStatus = "completed";
 	
 	function addDataToMap(data, map) {
     var dataLayer = L.geoJson(data, {
         onEachFeature: function(feature, layer) {
             var popupText = "<h3>Project Title: " + feature.properties.title + "</h3>" + "Lead Nominator: " + feature.properties.lead_nominator + "<br>" + "Nominator: " + feature.properties.nominator;			
+			layer.setIcon(orangeIcon);
             layer.bindPopup(popupText); 
 			layer.on('mouseover', function() { layer.openPopup(); });
 			layer.on('mouseout', function() { layer.closePopup(); });
@@ -109,14 +70,7 @@
 				window.open(feature.properties.url, "_self");
 				
 			});
-			if (feature.properties.status == projectStatus) {
-				
-				return layer.setIcon(IconComplete);
-				
-			} else {
-				
-				return layer.setIcon(IconActive);		
-			}
+			
 		
 		}
         });

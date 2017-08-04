@@ -2,7 +2,10 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Taiwan",
+        "rep_data": "<div class=\"modal-body\"><table class=\"threeColumnTable\"> <tbody> <tr> <td> <h3>Chih-Wei Wu (Coal)</h3> <p>Director<br> Bureau of Energy<br> Ministry of Economic Affairs<br> <a href=\"mailto:cwwu@moeaboe.gov.tw\">Email</a></p></td> <td> <h3>Shyh-Nan Chen (Coal)</h3> <p>Section Chief<br> Energy Technology Division<br> Bureau of Energy<br> Ministry of Economic Affairs<br> <a href=\"mailto:snchen@moeaboe.gov.tw\">Email</a></p></td> <td> <h3>Chun Ching&nbsp;Lin (Coal)</h3> <p>Senior Research Engineer<br> Energy Research Laboratory<br> TPRI, Taiwan Power Company<br> <a href=\"mailto:u554636@taipower.com.tw\">Email</a></p></td> </tr> </tbody> </table> <table class=\"threeColumnTable\"> <tbody> <tr> <td> <h3>Yiang-Chen Chou (Coal)</h3> <p>Researcher<br> Green Energy and Environment Research Laboratories<br> Industrial Technology Research Institute<br> <a href=\"mailto:chouyc@itri.org.tw\">Email</a></p></td> <td> <h3>Hsiu-Fen Tsai (Oil &amp; Gas)</h3> <p>Deputy Director<br> Bureau of Energy<br> Ministry of Economic Affairs<br> <a href=\"mailto:hftsai@moeaboe.gov.tw\">Email</a></p></td> <td> <h3>Claire Lee (Oil &amp; Gas)</h3> <p>Coordinator<br> CPC Corporation, Taiwan<br> <a href=\"mailto:161438@cpc.com.tw\">Email</a></p></td> </tr> </tbody> </table></div>"
+      },
       "geometry": {
         "coordinates": [
           120.990855,
@@ -14,7 +17,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Papua New Guinea"
+      },
       "geometry": {
         "coordinates": [
           143.511309,
@@ -26,7 +31,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Australia",
+        "rep_data": "<div class=\"modal-body\"><table class=\"twoColumnTable\"> <tbody> <tr> <td> <h3>Mr. Josh Cosgrave</h3> <p>A/g General Manager<br> Onshore Minerals Branch<br> Resources Division<br> Department of Industry and Science<br> <a href=\"mailto:Josh.Cosgrave@industry.gov.au\">Email</a></p></td> <td> <h3>Ms.&nbsp;Victoria Carpenter (Oil &amp; Gas)</h3> <p>Assistant Director, International Energy Security Engagement<br> Energy Security Office, Department of the Environment and Energy<br> <a href=\"mailto:Victoria.Carpenter@environment.gov.au\">Email</a></p> <p>&nbsp;</p></td> </tr> </tbody> </table></div>"
+      },
       "geometry": {
         "coordinates": [
           134.606777,
@@ -44,8 +52,8 @@
       },
       "geometry": {
         "coordinates": [
-          -98.25954,
-          39.480947
+          -95.179943,
+          37.042352
         ],
         "type": "Point"
       },
@@ -53,7 +61,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Peru"
+      },
       "geometry": {
         "coordinates": [
           -75.315872,
@@ -65,7 +75,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Russian Federation"
+      },
       "geometry": {
         "coordinates": [
           41.326857,
@@ -77,7 +89,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "New Zealand",
+        "rep_data": "<div class=\"modal-body\"><h3>Bertrand Ngai</h3> <p>Senior Policy Advisor<br> Energy &amp; Resource Markets Branch, Ministry of Business, Innovation &amp; Employment</p> <p><a href=\"mailto:bertrand.ngai@mbie.govt.nz\">Email</a></p></div>"
+      },
       "geometry": {
         "coordinates": [
           171.790308,
@@ -89,7 +104,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Brunei"
+      },
       "geometry": {
         "coordinates": [
           114.619608,
@@ -101,7 +118,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Hong Kong",
+        "rep_data": "<div class=\"modal-body\">  <h3 style=\"text-align: left;\">Hong Kong, China</h3> <table class=\"threeColumnTable\"> <tbody> <tr> <td> <h3>Mr. Francis Cheng (Coal, Oil &amp; Gas)</h3> <p>Operations Director<br> The Hongkong Electric Company, Limited<br> <a href=\"mailto:fcycheng@hkelectric.com\">Email</a></p></td> <td> <h3>Mr. Thomas Chu (Coal, Oil &amp; Gas)</h3> <p>Senior Strategic Planning Manager<br> CLP Power Hong Kong Limited<br> <a href=\"mailto:mtchu@clp.com.hk\">Email</a></p></td> <td> <h3>Mr. Martin Yip (Coal)</h3> <p>Senior Engineer<br> Energy Efficiency Office<br> Electrical and Mechanical Services Department<br> The Government of The Hong Kong Special Administrative Region<br> <a href=\"mailto:yipch@emsd.gov.hk\">Email</a></p></td> </tr> </tbody> </table> <table class=\"threeColumnTable\"> <tbody> <tr> <td> <h3>Mr. Ken Chan (Oil &amp; Gas)</h3> <p>Policy, Government and Public Affairs Manager<br> Chevron Hong Kong Limited<br> <a href=\"mailto:kmkc@chevron.com\">Email</a></p></td> <td> <h3>Mr. Samson Lam (Oil &amp; Gas)</h3> <p>General Manager – Shell Gas HK/Macau<br> Shell Hong Kong Limited<br> <a href=\"mailto:Samson.lam@shell.com\">Email</a></p></td> <td> <h3>Mr. Victor Kwong (Oil &amp; Gas)</h3> <p>Head of Corporate Health, Safety and Environment<br> Hong Kong and China Gas Company Limited<br> <a href=\"mailto:victor.kwong@towngas.com\">Email</a></p></td> </tr> </tbody> </table></div>"
+      },
       "geometry": {
         "coordinates": [
           114.168121,
@@ -113,7 +133,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Canada"
+      },
       "geometry": {
         "coordinates": [
           -92.254462,
@@ -125,7 +147,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Philippines",
+        "rep_data": "<div class=\"modal-body\"><table class=\"threeColumnTable\"> <tbody> <tr> <td> <h3>Mr. Mario C. Marasigan</h3> <p>Director, Renewable and Energy Management Bureau<br> Department of Energy (DOE)<br> <a href=\"mailto:mario.marasigan@doe.gov.ph\">Email</a></p></td> <td> <h3>Mr. Mark Christian P. Marollano, REE</h3> <p>Senior Science Research Specialist (Sr. SRS)<br> Power Planning and Development Division (PPDD)<br> Electric Power Industry Management Bureau (EPIMB)<br> Department of Energy (DOE)<br> <a href=\"mailto:mark.marollano@doe.gov.ph\">Email</a></p></td> <td> <h3>Mr. Beejee B. Dequina, REE</h3> <p>Science Research Specialist II<br> Power Planning and Development Division (PPDD)<br> Electric Power Industry Management Bureau (EPIMB)<br> Department of Energy (DOE)<br> <a href=\"mailto:beejee.dequina@doe.gov.ph\">Email</a></p></td> </tr> </tbody> </table></div>"
+      },
       "geometry": {
         "coordinates": [
           122.610754,
@@ -137,7 +162,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Japan",
+        "rep_data": "<div class=\"modal-body\"><table class=\"twoColumnTable\"> <tbody> <tr> <td> <h3>Toshiko Fujita</h3> <p><strong><em>APEC EGCFE Secretariat<br> </em></strong>Assistant Director, Strategic Planning &amp; Information Department<br> Japan Coal Energy Center (JCOAL)<br> <a href=\"mailto:fujita@jcoal.or.jp\">Email</a></p> <h3></h3> </td> <td> <h3>Tomio Harada (Coal, Oil and Gas)</h3> <p>Director for Natural Resources and Energy Research, International Affair Division<br> Agency for Natural Resources and Energy (ANRE)<br> Ministry of Economy, Trade and Industry (METI)<br> <a href=\"mailto:harada-tomio@meti.go.jp\">Email</a></p></td> </tr> </tbody> </table> <table class=\"twoColumnTable\"> <tbody> <tr> <td> <h3>Hiroki Yoshida (Coal, Oil and Gas)</h3> <p>Deputy Director, International Affair Division<br> Agency for Natural Resources and Energy (ANRE)<br> Ministry of Economy, Trade and Industry (METI)<br> <a href=\"mailto:yoshida-hiroki@meti.go.jp\">Email</a></p> <h3></h3> </td> <td> <h3>Hiroyuki Tsukada (Coal)</h3> <p>Director, Coal Division, Natural Resources and Fuel Department<br> Agency for Natural Resources and Energy (ANRE)<br> Ministry of Economy, Trade and Industry (METI)<br> <a href=\"mailto:tsukada-hiroyuki@meti.go.jp\">Email</a></p></td> </tr> </tbody> </table> <table class=\"twoColumnTable\"> <tbody> <tr> <td> <h3>Hideyuki Umeda&nbsp;(Coal)</h3> <p>Deputy Director, Coal Division<br> Natural Resources and Fuel Department<br> Agency for Natural Resources and Energy (ANRE)<br> Ministry of Economy, Trade and Industry (METI)<br> <a href=\"mailto:umeda-hideyuki@meti.go.jp\">Email</a></p> <p>&nbsp;</p></td> <td> <h3>Hirotsugu Ishibashi&nbsp;(Coal)</h3> <p>Assistant Director, Coal Division<br> Natural Resources and Fuel Department<br> Agency for Natural Resources and Energy (ANRE)<br> Ministry of Economy, Trade and Industry (METI)<br> <a href=\"mailto:ishibashi-hirotsugu@meti.go.jp\">Email</a></p></td> </tr> </tbody> </table></div>"
+      },
       "geometry": {
         "coordinates": [
           140.046167,
@@ -149,7 +177,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "rep_data": "<div class=\"modal-body\"><table class=\"twoColumnTable\"> <tbody> <tr> <td> <h3>Ms. Inu Baizura Mohamad Zain</h3> <p>Under Secretary, Strategic Planning and International Relations Division<br> Ministry of Energy, Green Technology and Water<br> <a href=\"mailto:inu@kettha.gov.my\">Email</a></p></td> <td> <h3>Ms. Sri Derwina Shaharuddin</h3> <p>Senior Principal Assistant Secretary, Strategic Planning and International Relations Division<br> Ministry of Energy, Green Technology and Water &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.<br> <a href=\"mailto:sri.shaharuddin@kettha.gov.my\">Email</a></p></td> </tr> </tbody> </table> <table class=\"twoColumnTable\"> <tbody> <tr> <td> <h3>Ms. Aswita Sazmin Ismail</h3> <p>Assistant Secretary, Strategic Planning and International Relations Division<br> Ministry of Energy, Green Technology and Water<br> <a href=\"mailto:aswita@kettha.gov.my\">Email</a></p></td> <td> <h3>Ministry of&nbsp;&nbsp;International Trade and Industry</h3> <p><a href=\"mailto:apecmiti@miti.gov.my\">Email</a></p></td> </tr> </tbody> </table></div>",
+        "title": "Malaysia"
+      },
       "geometry": {
         "coordinates": [
           102.95012,
@@ -161,7 +192,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Vietnam",
+        "rep_data": "<div class=\"modal-body\"><table class=\"twoColumnTable\"> <tbody> <tr> <td> <h3>Mr. Pham Thanh Tung</h3> <p>Director<br> International Cooperation Department<br> General Directorate of Energy<br> Ministry of Industry and Trade (MOIT)<br> <a href=\"mailto:TungPT@moit.gov.vn\">Email</a></p> <p>&nbsp;</p> <h3></h3> </td> <td> <h3>Mr. Quach Quang Dong</h3> <p>Deputy Director<br> International Cooperation Department<br> General Directorate of Energy<br> Ministry of Industry and Trade (MOIT)<br> <a href=\"mailto:dongqq@moit.gov.vn\">Email</a></p></td> </tr> </tbody> </table></div>"
+      },
       "geometry": {
         "coordinates": [
           108.461496,
@@ -173,7 +207,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Thailand",
+        "rep_data": "<div class=\"modal-body\"><table class=\"threeColumnTable\"> <tbody> <tr> <td> <h3>Mr. Tinnakorn Sunee (Coal)</h3> <p>Geologist, Senior Professional Level<br> Department of Mineral Fuels, Ministry of Energy<br> <a href=\"mailto:tinnakorn@dmf.go.th\">Email</a></p></td> <td> <h3>Mr. Chanintorn Sriratpinyo&nbsp;(Coal)</h3> <p>Coal Project Manager<br> PTT Energy Resources (PTTER)<br> <a href=\"mailto:chanintorn.s@ptt-er.com\">Email</a></p></td> <td> <h3>Mr. Prajuab Donkummoon (Coal)</h3> <p>Assistant Executive Director of Planning and Management for Mae Moh Mine<br> Electricity Generating Authority of Thailand<br> <a href=\"mailto:prajuab.d@egat.co.th\">Email</a></p></td> </tr> </tbody> </table> <table class=\"threeColumnTable\"> <tbody> <tr> <td> <h3>Mr. Kriangkrai Pomin (Oil &amp; Gas)</h3> <p>Geologist, Senior Professional Level<br> Department of Mineral Fuels, Ministry of Energy<br> <a href=\"mailto:kriangkrai@dmf.go.th\">Email</a></p></td> <td> <h3>Mr. Apiwat Detwarasiti (Oil &amp; Gas)</h3> <p>Business Planning Department, Gas Business Unit<br> PTT Public Company Limited<br> <a href=\"mailto:apiwat.d@pttplc.com\">Email</a></p></td> <td> <h3>Ms. Wilaiporn Karmboot (Oil &amp; Gas)</h3> <p>Assistant Executive Director of Fuel Management<br> Electricity Generating Authority of Thailand<br> <a href=\"mailto:wilaiporn.ka@egat.co.th\">Email</a></p></td> </tr> </tbody> </table></div>"
+      },
       "geometry": {
         "coordinates": [
           100.767543,
@@ -185,7 +222,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Chile",
+        "rep_data": "<div class=\"modal-body\"><table class=\"twoColumnTable\"> <tbody> <tr> <td> <h3>Ms. Corissa Petro</h3> <p>Deputy Head of International Affairs<br> International Department<br> Ministry of Energy<br> <a href=\"mailto:cpetro@minenergia.cl\">Email</a></p></td> <td> <h3>Ms. Mijal Brady</h3> <p>Sectorial Coordinator<br> International Department<br> Ministry of Energy &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .<br> <a href=\"mailto:mbrady@minenergia.cl\">Email</a></p></td> </tr> </tbody> </table> <table class=\"twoColumnTable\"> <tbody> <tr> <td> <h3>Mr. Pablo Trigo</h3> <p>Legal Advisor<br> APEC Department<br> General Directorate of Economic Foreign Affairs<br> <a href=\"mailto:ptrigo@direcon.gob.cl\">Email</a></p></td> <td> <h3>Mr. Pablo Romero</h3> <p>Legal Advisor<br> APEC Department<br> General Directorate for Economic Foreign Affairs<br> <a href=\"mailto:paromero@direcon.gob.cl\">Email</a></p></td> </tr> </tbody> </table> <p>&nbsp;</p></div>"
+      },
       "geometry": {
         "coordinates": [
           -71.756081,
@@ -197,7 +237,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Singapore"
+      },
       "geometry": {
         "coordinates": [
           103.870186,
@@ -209,7 +251,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Indonesia",
+        "rep_data": "<div class=\"modal-body\"><h3>Mr. Hohamad Hendrasto</h3> <p>Director, Clean Coal Technology and Environment<br> Directorate General of Mineral and Coal<br> Ministry of Energy and Mineral Resources (MEMR)</p></div>"
+      },
       "geometry": {
         "coordinates": [
           115.027007,
@@ -221,7 +266,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "China"
+      },
       "geometry": {
         "coordinates": [
           103.936725,
@@ -233,7 +280,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Mexico"
+      },
       "geometry": {
         "coordinates": [
           -103.956377,
@@ -245,7 +294,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "title": "Republic of Korea",
+        "rep_data": "<div class=\"modal-body\"><table class=\"twoColumnTable\"> <tbody> <tr> <td> <h3>Dr. Jiho Yoo&nbsp;(Coal)</h3> <p>Principal Research Scientist<br> Korea Institute of Energy Research (KIER)<br> <a href=\"mailto:jyoo@kier.re.kr\">Email</a></p></td> <td> <h3>Dr. Ki Joong Kim&nbsp;(Oil and Gas)</h3> <p>Senior Research Fellow<br> Korea Energy Economics Institute (KEEI)<br> <a href=\"mailto:kjkim@keei.re.kr\">Email</a></p></td> </tr> </tbody> </table></div>"
+      },
       "geometry": {
         "coordinates": [
           127.934523,
