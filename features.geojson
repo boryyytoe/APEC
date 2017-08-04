@@ -1,0 +1,260 @@
+﻿var rep_data = {
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          120.990855,
+          23.984292
+        ],
+        "type": "Point"
+      },
+      "id": "22f4b4e537a12892171e55a35d8c1c1d"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          143.511309,
+          -6.397399
+        ],
+        "type": "Point"
+      },
+      "id": "2ed974a38a7d88a10b73949367f8182e"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          134.606777,
+          -28.117385
+        ],
+        "type": "Point"
+      },
+      "id": "312be0f403215338407a112397ed9ac3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "United States",
+        "rep_data": "<div class=\"modal-body\"><h3>Mr. Scott Smouse</h3> <p><strong><em>APEC EGCFE Chair</em></strong><br/> Senior Advisor to Deputy Assistant Secretary<br/> Office of Clean Coal and Carbon Management / Office of Fossil Energy<br/> U.S. Department of Energy<br/> <a href=\"mailto:Scott.Smouse@Hq.Doe.Gov\">Email</a></p></div>"
+      },
+      "geometry": {
+        "coordinates": [
+          -98.25954,
+          39.480947
+        ],
+        "type": "Point"
+      },
+      "id": "38da4478dd83552f7b752344355f7bc3"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          -75.315872,
+          -9.435928
+        ],
+        "type": "Point"
+      },
+      "id": "396c0d72b9b6515fe2b52a4a0dfe5568"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          41.326857,
+          55.820103
+        ],
+        "type": "Point"
+      },
+      "id": "4de4e3c0161f3ff643da1ffc6a923a80"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          171.790308,
+          -43.339813
+        ],
+        "type": "Point"
+      },
+      "id": "5317b33c16748b575775b198c32b5e68"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          114.619608,
+          4.536614
+        ],
+        "type": "Point"
+      },
+      "id": "61a9a6e0253fd7463e4cf5a9a3864185"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          114.168121,
+          22.269141
+        ],
+        "type": "Point"
+      },
+      "id": "692af9256fd35b34caffce3c0451de9c"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          -92.254462,
+          53.032901
+        ],
+        "type": "Point"
+      },
+      "id": "7a11052aef508281c16bb4a80053fccb"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          122.610754,
+          11.209505
+        ],
+        "type": "Point"
+      },
+      "id": "7ab3e1e84b0e0b04821063ad8e7c0e18"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          140.046167,
+          37.54875
+        ],
+        "type": "Point"
+      },
+      "id": "7f4d588f08fcee76dd6d867f325f2009"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          102.95012,
+          3.530223
+        ],
+        "type": "Point"
+      },
+      "id": "8fe583fdcb6c7ca30d0c4923f0951112"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          108.461496,
+          14.551317
+        ],
+        "type": "Point"
+      },
+      "id": "9cb10fe7b807044d94d1c67f55df10f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          100.767543,
+          15.837314
+        ],
+        "type": "Point"
+      },
+      "id": "a7c3e09ab737cca2453e52b847fb8cf8"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          -71.756081,
+          -36.08545
+        ],
+        "type": "Point"
+      },
+      "id": "b839b1d1db465d84f2d50d1f9e6a6eff"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          103.870186,
+          1.336265
+        ],
+        "type": "Point"
+      },
+      "id": "b843bc3ee63a45823c83c01607420711"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          115.027007,
+          -0.833898
+        ],
+        "type": "Point"
+      },
+      "id": "c59283fde23b162a3730402f0ee214a9"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          103.936725,
+          36.841633
+        ],
+        "type": "Point"
+      },
+      "id": "d48eb322644339cfb24ea099cc4850fe"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          -103.956377,
+          26.467942
+        ],
+        "type": "Point"
+      },
+      "id": "ef3f276dc100022071b75413ccd620dd"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          127.934523,
+          37.026219
+        ],
+        "type": "Point"
+      },
+      "id": "ef8a0533a1dcddb420bac957e4ea01de"
+    }
+  ],
+  "type": "FeatureCollection"
+};

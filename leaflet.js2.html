@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- 
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+
+-->
+
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
+  integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
+  crossorigin=""/>
+  
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"
+  integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg=="
+  crossorigin=""></script>
+<script src="leaflet.ajax.min.js"></script>  
+<!-- <script src="features.js"></script>  -->
+
+  
+<style type="text/css">
+	#map { height: 880px; }
+	body {padding:0;margin:0;}
+</style>
+</head>
+
+<body>
+<div id="map"></div>
+<script>
+	
+
+
+	
+	var map = L.map('map').setView([51.505, -0.09], 3);
+
+	L.tileLayer('https://api.mapbox.com/styles/v1/bbuth/cj5sj7p1g3qpq2sliyo38j6d6/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYmJ1dGgiLCJhIjoiY2o1c2l6eGtiMTczczMycHE3MWYxZXBzcCJ9.aOdUGFakB1ipKxS8tY9IQw', {
+		container: 'mymap',
+    	style: 'mapbox://styles/bbuth/cj5sj7p1g3qpq2sliyo38j6d6'
+	}).addTo(map);
+	
+	/*
+	var IconActive = L.icon({
+    iconUrl: 'map-marker-icon.png'});
+	
+	var IconComplete = L.icon({
+    iconUrl: 'map-marker-icon2.png'});
+	
+	var projectStatus = "complete";
+	
+	function popup (feature, layer) {		
+		var dataLayer = L.geoJson (feature,{
+		
+		layer.bindPopup("<h3>Project Title: " + feature.properties.title + "</h3>" + "Lead Nominator: " + feature.properties.lead_nominator + "<br>" + "Nominator: " + feature.properties.nominator);
+		layer.on('mouseover', function() { layer.openPopup(); });
+		layer.on('mouseout', function() { layer.closePopup(); });
+		layer.on('click', function () {
+		window.open(feature.properties.url, "_self");
+				});
+		
+		if (feature.properties.status == projectStatus) {
+				
+				return layer.setIcon(IconComplete);
+				
+			} else {
+				
+				return layer.setIcon(IconActive);		
+			}
+		)};
+	};
+	
+	L.geoJson(dataLayer,{
+		onEachFeature: popup
+	}).addTo(mymap);
+
+	$.getJSON("https://cdn.rawgit.com/Energetics-Incorporated/CSLF/5774efbb/features.geojson", function(feature) { popup(feature, layer); });
+	*/
+	
+	var IconActive = L.icon({
+    iconUrl: 'map-marker-icon.png',
+	iconSize: [30,45],
+	iconAnchor: [15, 45],
+	popupAnchor:  [0, -45]
+	});
+	
+	var IconComplete = L.icon({
+    iconUrl: 'map-marker-icon2.png',
+	iconSize: [30,45],
+	iconAnchor: [15, 45], 
+	popupAnchor:  [0, -45]
+	});
+	
+	var projectStatus = "completed";
+	
+	function addDataToMap(data, map) {
+    var dataLayer = L.geoJson(data, {
+        onEachFeature: function(feature, layer) {
+            var popupText = "<h3>Project Title: " + feature.properties.title + "</h3>" + "Lead Nominator: " + feature.properties.lead_nominator + "<br>" + "Nominator: " + feature.properties.nominator;			
+            layer.bindPopup(popupText); 
+			layer.on('mouseover', function() { layer.openPopup(); });
+			layer.on('mouseout', function() { layer.closePopup(); });
+			layer.on('click', function (e) {
+				window.open(feature.properties.url, "_self");
+				
+			});
+			if (feature.properties.status == projectStatus) {
+				
+				return layer.setIcon(IconComplete);
+				
+			} else {
+				
+				return layer.setIcon(IconActive);		
+			}
+		
+		}
+        });
+    dataLayer.addTo(map);
+}
+
+$.getJSON("parks.js", function(data) { addDataToMap(data, map); });
+	
+
+
+</script>
+</body>
+</html>
